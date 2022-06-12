@@ -29,7 +29,11 @@ int main(void) {
 		{
 			putchar(c);
 		}
-		else{
+		else if(isspace(c)){
+			
+			putchar(c);
+			
+		}else{
 			//Como ya cubri todos los casos que pedia, solamente me queda excluir los numeros
 		}
 
